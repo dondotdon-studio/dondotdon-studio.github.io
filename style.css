@@ -33,6 +33,18 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.brand:hover {
+  opacity: 0.85;
+}
+
+.brand:visited,
+.brand:active {
+  color: inherit;
 }
 
 .logo {
